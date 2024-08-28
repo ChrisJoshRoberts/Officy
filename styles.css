@@ -1,0 +1,29 @@
+body {
+  background-color: #6c6c6c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.shape-container {
+  position: relative;
+  border: 2px solid red;
+}
+.shape-image {
+  top: 0;
+  right: 0;
+  width: 90%;
+  border: 2px solid blue;
+}
+.shape-bg {
+  width: 80%;
+  bottom: 0;
+  border: 2px solid rgb(26, 243, 26);
+}
+.inner-shape-wrapper {
+  height: 100vh;
+  border: 4px dotted yellow;
+}
+.inner-shape-wrapper > * {
+  position: absolute;
+}
